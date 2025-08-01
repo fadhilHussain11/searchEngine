@@ -16,3 +16,4 @@ langchain_groq
 langchain_core
 sse_starlette
 duckduckgo-search
+cohere
