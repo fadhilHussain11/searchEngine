@@ -43,6 +43,7 @@ load_dotenv()
 
 cohere_api_key = os.getenv("COHERE_API_KEY")
 
+st.secrets["COHERE_API_KEY"]
 #arxiv tool
 arxiv_wrapper = ArxivAPIWrapper(top_k_results=1,doc_content_chars_max=200)
 arxiv_tool = ArxivQueryRun(api_wrapper=arxiv_wrapper)
